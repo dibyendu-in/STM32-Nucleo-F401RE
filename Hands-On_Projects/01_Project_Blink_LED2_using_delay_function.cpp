@@ -16,6 +16,6 @@ int main()
         HAL_Delay(1000);  // Delay for 1 second (1000 milliseconds)
 
         ledPin.write(0);  // Set the LED pin low, turning off the LED
-        HAL_Delay(10000);  // Delay for 10 seconds (10000 milliseconds)
+        HAL_Delay(1000);  // Delay for 1 second (1000 milliseconds)
     }
 }
