@@ -9,7 +9,6 @@
 DigitalOut ledPin(D13);
 int main()
 {   
-
     while (true) 
     {
         ledPin.write(1);
