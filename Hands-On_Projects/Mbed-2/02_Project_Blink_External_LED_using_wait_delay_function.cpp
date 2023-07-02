@@ -6,7 +6,7 @@
 
 #include "mbed.h"
 
-DigitalOut led(D2);  // Define DigitalOut object for the D2 pin (D13)
+DigitalOut led(D2);  // Define DigitalOut object for the D2 pin (D2)
 
 int main()
 {   
