@@ -15,7 +15,7 @@ int main()
         buz.write(1);  // Set the buzzer pin high, turning on the buzzer
         wait_ms(300);  // Delay for 300 milliseconds
 
-        buz.write(0);  // // Set the buzzer pin low, turning off the buzzer
+        buz.write(0);  // Set the buzzer pin low, turning off the buzzer
         wait_ms(300);  // Delay for 300 milliseconds
     }
 }
