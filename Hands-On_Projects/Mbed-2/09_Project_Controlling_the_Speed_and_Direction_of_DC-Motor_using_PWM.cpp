@@ -11,7 +11,7 @@ PwmOut PWM_L(D3);      // PWM output for motor speed control
 DigitalOut Ma(D10);    // Direction control pin Ma
 DigitalOut Mb(D11);    // Direction control pin Mb
 DigitalOut flash(LED1);    // Flash LED for indication
-InterruptIn B_Dir(USER_BUTTON);    // Button to toggle motor direction
+InterruptIn B_Dir(PA_13);    // Button to toggle motor direction
 InterruptIn B_Speed(D12, PullUp);    // Button to change motor speed
 
 double i = 0;
