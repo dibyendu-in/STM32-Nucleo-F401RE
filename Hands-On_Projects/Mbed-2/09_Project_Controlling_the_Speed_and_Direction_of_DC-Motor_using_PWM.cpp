@@ -6,13 +6,13 @@
 
 #include "mbed.h"
 
-PwmOut PWM_M(D9);
-PwmOut PWM_L(D3);
-DigitalOut Ma(D10);
-DigitalOut Mb(D11);
-DigitalOut flash(LED2);
-InterruptIn B_Dir(USER_BUTTON);
-InterruptIn B_Speed(D12, PullUp);
+PwmOut PWM_M(D9);      // PWM output for motor speed control
+PwmOut PWM_L(D3);      // PWM output for motor speed control
+DigitalOut Ma(D10);    // Direction control pin Ma
+DigitalOut Mb(D11);    // Direction control pin Mb
+DigitalOut flash(LED2);    // Flash LED for indication
+InterruptIn B_Dir(USER_BUTTON);    // Button to toggle motor direction
+InterruptIn B_Speed(D12, PullUp);    // Button to change motor speed
 
 double i = 0;
 
