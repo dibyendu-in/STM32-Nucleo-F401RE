@@ -15,7 +15,7 @@ int main()
     {
         float ADC_val = POT.read();                     // Read potentiometer value
         printf("ADC val: %f \n", ADC_val);              // Print potentiometer value
-        // Equivalent Voltage = ADC Voltage * Reference Voltage
+        // Equivalent Voltage = ADC Value * Reference Voltage
         float ADC_volts = ADC_val * 3.3;                // Convert potentiometer value to voltage
         printf("ADC voltage: %f \n", ADC_volts);        // Print potentiometer voltage
         wait_ms(500);                                   // Delay for 500 milliseconds
