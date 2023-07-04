@@ -1,7 +1,7 @@
 /*
  * Author: DIBYENDU BARMAN
  * Date: 04-July-2023
- * Project Description: Print Characters, String and Numbers on 16X2 LCD
+ * Project Description: Print Characters, String and Numbers on 16X2 Liquid Crystal Display
  * TextLCD Library: https://os.mbed.com/users/simon/code/TextLCD/
  */
 
